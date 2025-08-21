@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulario de evaluación</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+<header>
+  <div class="title">
+    <img class="logo" src="img/imagen 1.html" alt="Logo del plantel">
+    <div>
+      <div style="font-size:20px; font-weight:900">Formulario</div>
+      <div class="small">Submódulo: Medio Ambiente • Docente: Ana Belem Moreno</div>
+    </div>
+  </div>
+  <nav><a href="index.html">Inicio</a><a href="menu.html">Índice</a><a href="historia.html">Historia</a><a href="ubicacion.html">Ubicación</a><a href="actividades.html">Actividades</a><a href="personalidades.html">Personalidades</a><a href="cultura.html">Cultura</a><a href="flora_fauna.html">Flora y Fauna</a><a href="turismo.html">Turismo</a><a href="transporte.html">Transporte</a><a href="tablas.html">Tablas</a><a href="galeria.html">Galería</a><a href="videos.html">Videos</a><a href="enlaces.html">Enlaces</a><a href="formulario.html">Formulario</a><a href="conclusion.html">Conclusión</a></nav>
+</header>
+
+<main>
+
+<h1>Formulario de evaluación</h1>
+<p>Tu retroalimentación se envía por correo al equipo (se abre tu cliente de correo).</p>
+<form action="mailto:ana@example.com" method="post" enctype="text/plain">
+  <label>Nombre</label>
+  <input type="text" name="nombre" required>
+  <label>Correo</label>
+  <input type="email" name="correo" required>
+  <label>Califica el sitio</label>
+  <select name="calificacion" required>
+    <option value="Excelente">Excelente</option>
+    <option value="Bueno">Bueno</option>
+    <option value="Regular">Regular</option>
+  </select>
+  <label>Comentarios</label>
+  <textarea name="comentarios" rows="5" placeholder="Escribe tus sugerencias..."></textarea>
+  <button type="submit">Enviar evaluación</button>
+</form>
+<p class="small">formulario completado <code>action</code> para tu bienestar.</p>
+
+</main>
+<footer>© 2025 Medio Ambiente Informativo.</footer>
+</body>
+</html>
